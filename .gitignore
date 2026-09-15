@@ -1,0 +1,18 @@
+# 忽略本地配置（含 API Key，绝对不要上传）
+config.py
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略打包产物（体积很大，通过 Release 发布）
+build/
+dist/
+*.spec
+
+# 忽略截图产物
+*.png
+screenshot.png
+
+# 忽略设置文件（用户自己生成）
+settings.json
