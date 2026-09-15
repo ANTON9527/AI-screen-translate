@@ -8,7 +8,6 @@ __pycache__/
 # 忽略打包产物（体积很大，通过 Release 发布）
 build/
 dist/
-*.spec
 
 # 忽略截图产物
 *.png
